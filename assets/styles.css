@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(270deg, #fa50db, red,#ffda48);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: right;
+    }
+    50% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    padding: 10px;
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    justify-content: space-evenly;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    max-width: 630px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(270deg, red, yellow);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    background-size: 200% 200%;
+    transition: background-position 0.5s ease;
+}
+
+button:hover {
+    background-position: right;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #c4c4c4;
+}
