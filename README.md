@@ -1,7 +1,7 @@
 # Value Converter  
 [View Website](https://x2y.netlify.app)
 
-![GitHub](https://img.shields.io/badge/Value-Converter-blue)
+![GitHub](https://img.shields.io/badge/Value-Converter-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 A simple and efficient web tool to convert values from one ratio to another. For example, convert 40/60 to y/100.
